@@ -344,15 +344,6 @@
                 </li>
 
                 <li class="nav-item">
-                  <a href="{{ route('listBoats', 1) }}" class="nav-link {{ request()->is('listBoats') ? 'active' : '' }}">
-                    <i class="nav-icon fas fa-comments"></i>
-                    <p>
-                      Embarcaciones
-                    </p>
-                  </a>
-                </li>
-
-                <li class="nav-item">
                   <a href="{{ route('listCombos', 1) }}" class="nav-link {{ request()->is('listCombos') ? 'active' : '' }}">
                     <i class="nav-icon fas fa-comments"></i>
                     <p>
