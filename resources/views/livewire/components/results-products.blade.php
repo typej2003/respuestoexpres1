@@ -37,15 +37,6 @@
     </style>
             <div class="row d-flex">                
                 <div class="mx-auto col-md-12 col-12">
-                    <div class="row">
-                        <!-- Sección de categoría -->
-                        <div class="col-md-12 col-12">
-                            <button class="btn btn-success" wire:click.prevent="setC">Set Cookie</button>
-                            <button class="btn btn-success" wire:click.prevent="getC">Get Cookie</button>
-                            
-                        </div>        
-                    </div>
-
                     <!-- Sección de Resultados -->
                     <div class="row bg">
                         <div class="col-md-12 col-12">

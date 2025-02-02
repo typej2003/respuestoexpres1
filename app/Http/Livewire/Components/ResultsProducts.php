@@ -27,20 +27,6 @@ class ResultsProducts extends AdminComponent
 
     protected $listeners = ['infoRecibida' => 'actualizarInfo', 'actualizarQuantity' => 'actualizarQuantity'];
 
-    public function getC()
-    {
-        $cookie = new CookieController;
-        $this->valor = $cookie->getCookie('manufacturer_id');
-        dd($this->valor);
-        
-    }
-
-    public function setC()
-    {
-        $cookie = new CookieController;
-        $cookie->setCookie('valor1', 'hola');
-    }
-
     public function actualizarInfo($data, $manufacturer, $products)
     {
         
